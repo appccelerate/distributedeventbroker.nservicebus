@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Appccelerate.DistributedEventBroker.NServiceBus</id>
+    <version>0.0.0</version>
+    <title>Appccelerate.DistributedEventBroker.NServiceBus</title>
+    <authors>Appccelerate team</authors>
+    <owners>Appccelerate team</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/appccelerate/distributedeventbroker.nservicebus</projectUrl>
+    <iconUrl>https://github.com/appccelerate/appccelerate/raw/master/docs/nuget.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>NServiceBus adapter for distributed event broker (Appccelerate.DistributedEventBroker).</summary>
+    <description>
+      Adapter for using event broker extension for distributed communication over NServiceBus.
+      Allows sending events over NServiceBus using the Appccelerate.EventBroker infrastructur.
+    </description>
+    <releaseNotes>
+        3.1: built using new build infrastructure (no functional changes)
+        3: targets now .Net 4.5
+    </releaseNotes>
+    <copyright>Copyright 2012-2014</copyright>
+    <tags>Appccelerate event-broker extension interprocess-communication distributed</tags>
+  <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net45" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="Appccelerate.Fundamentals" version="[2.0,3.0)" />
+      <dependency id="Appccelerate.EventBroker" version="[3.1,4.0)"/>
+      <dependency id="Appccelerate.DistributedEventBroker" version="[3.1,4.0)"/>
+      <dependency id="NServiceBus" version="[4.3,5.0)"/>
+    </dependencies>	
+  </metadata>
+  <files>
+    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.dll" target="lib\net45" />
+    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.pdb" target="lib\net45" />
+    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.xml" target="lib\net45" />
+    <file src="Appccelerate.DistributedEventBroker.NServiceBus\**\*.cs" target="src" />
+  </files>  
+</package>
