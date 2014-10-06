@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Appccelerate.DistributedEventBroker">
-      <HintPath>..\packages\Appccelerate.DistributedEventBroker.3.1.0-Unstable0005\lib\net45\Appccelerate.DistributedEventBroker.dll</HintPath>
+    <Reference Include="Appccelerate.DistributedEventBroker, Version=3.5.0.0, Culture=neutral, PublicKeyToken=917bca444d1f2b4c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Appccelerate.DistributedEventBroker.3.5.0\lib\net45\Appccelerate.DistributedEventBroker.dll</HintPath>
     </Reference>
     <Reference Include="Appccelerate.EventBroker">
       <HintPath>..\packages\Appccelerate.EventBroker.3.9.0\lib\net45\Appccelerate.EventBroker.dll</HintPath>
@@ -55,11 +56,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Moq.4.2.1409.1722\lib\net40\Moq.dll</HintPath>
     </Reference>
-    <Reference Include="NServiceBus">
-      <HintPath>..\packages\NServiceBus.Interfaces.4.3.3\lib\net40\NServiceBus.dll</HintPath>
-    </Reference>
-    <Reference Include="NServiceBus.Core">
-      <HintPath>..\packages\NServiceBus.4.3.3\lib\net40\NServiceBus.Core.dll</HintPath>
+    <Reference Include="NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NServiceBus.5.0.0\lib\net45\NServiceBus.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,6 +84,7 @@
     <Compile Include="Properties\GlobalAssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="NuGet.config" />
     <None Include="packages.config" />
     <None Include="Settings.stylecop" />

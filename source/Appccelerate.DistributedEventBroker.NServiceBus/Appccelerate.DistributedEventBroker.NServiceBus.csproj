@@ -38,8 +38,9 @@
     <AssemblyOriginatorKeyFile />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Appccelerate.DistributedEventBroker">
-      <HintPath>..\packages\Appccelerate.DistributedEventBroker.3.1.0-Unstable0005\lib\net45\Appccelerate.DistributedEventBroker.dll</HintPath>
+    <Reference Include="Appccelerate.DistributedEventBroker, Version=3.5.0.0, Culture=neutral, PublicKeyToken=917bca444d1f2b4c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Appccelerate.DistributedEventBroker.3.5.0\lib\net45\Appccelerate.DistributedEventBroker.dll</HintPath>
     </Reference>
     <Reference Include="Appccelerate.EventBroker, Version=3.9.0.0, Culture=neutral, PublicKeyToken=917bca444d1f2b4c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -49,11 +50,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Appccelerate.Fundamentals.2.7.0\lib\portable-windows8+net45\Appccelerate.Fundamentals.dll</HintPath>
     </Reference>
-    <Reference Include="NServiceBus">
-      <HintPath>..\packages\NServiceBus.Interfaces.4.3.3\lib\net40\NServiceBus.dll</HintPath>
-    </Reference>
-    <Reference Include="NServiceBus.Core">
-      <HintPath>..\packages\NServiceBus.4.3.3\lib\net40\NServiceBus.Core.dll</HintPath>
+    <Reference Include="NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NServiceBus.5.0.0\lib\net45\NServiceBus.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -61,6 +60,7 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factories\NServiceBusDistributedFactory.cs" />
