@@ -16,7 +16,6 @@
       Allows sending events over NServiceBus using the Appccelerate.EventBroker infrastructur.
     </description>
     <releaseNotes>
-        2.1: built using new build infrastructure (no functional changes)
         2: targets now .Net 4.5
     </releaseNotes>
     <copyright>Copyright 2012-2014</copyright>
@@ -35,9 +34,9 @@
     </dependencies>	
   </metadata>
   <files>
-    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.dll" target="lib\net45" />
-    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.pdb" target="lib\net45" />
-    <file src="Appccelerate.DistributedEventBroker.NServiceBus\bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.xml" target="lib\net45" />
-    <file src="Appccelerate.DistributedEventBroker.NServiceBus\**\*.cs" target="src" />
+    <file src="bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.dll" target="lib\net45" />
+    <file src="bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.pdb" target="lib\net45" />
+    <file src="bin\Release\Appccelerate.DistributedEventBroker.NServiceBus.xml" target="lib\net45" />
+    <file src="**\*.cs" target="src" />
   </files>  
 </package>
