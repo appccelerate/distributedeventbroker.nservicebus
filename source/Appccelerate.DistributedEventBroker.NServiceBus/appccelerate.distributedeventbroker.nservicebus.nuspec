@@ -18,7 +18,7 @@
     <releaseNotes>
         2: targets now .Net 4.5
     </releaseNotes>
-    <copyright>Copyright 2012-2014</copyright>
+    <copyright>Copyright 2012-2015</copyright>
     <tags>Appccelerate event-broker extension interprocess-communication distributed</tags>
   <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net45" />
